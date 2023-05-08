@@ -1,0 +1,11 @@
+{% load socialaccount %}
+{% providers_media_js %}
+
+<ul>
+  <li>
+    <a href="{% provider_login_url "google" google="https://www.google.com/accounts/o8/id" next="/accounts/profile" %}">Google</a>
+  </li>
+  <li>
+    <a href="{% provider_login_url "twitter" %}">Twitter</a>
+  </li>
+</ul>
