@@ -4,7 +4,7 @@ from django.utils import timezone
 from fitgptapi.builders import builder_for
 from bs4 import BeautifulSoup as soup
 
-openai.api_key = "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"
+openai.api_key = ""
 
 class FitBotGPT():
     def __init__(self, fitness_program):
